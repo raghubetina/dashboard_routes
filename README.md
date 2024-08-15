@@ -1,24 +1,7 @@
-# README
+# Namespaced routes example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+`rails s` and visit the following:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- http://localhost:3000/runs/42/instructor/dashboard
+- http://localhost:3000/runs/42/instructor/dashboard/users
+- http://localhost:3000/runs/42/instructor/dashboard/users/42
